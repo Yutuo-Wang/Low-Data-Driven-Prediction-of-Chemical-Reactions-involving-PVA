@@ -17,4 +17,7 @@ Verify Installation
 conda install numpy pandas scikit-learn matplotlib
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 conda install -c conda-forge transformers rdkit pyscf tqdm
+## Verifying the Installation
+Make sure that all packages are properly installed and the environment is configured correctly.
+conda list
 
