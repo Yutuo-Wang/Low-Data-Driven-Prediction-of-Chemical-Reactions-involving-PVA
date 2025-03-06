@@ -7,6 +7,9 @@ The files related to the model are in this repository.
 
 By the way, please feel free to email yutuo7@126.com with any questions about this work.
 
-# Q&A
-## Installation
+# Tips
+## setup the environment
+conda create -n pva_env python==3.8
+conda activate pva_env
+
 
