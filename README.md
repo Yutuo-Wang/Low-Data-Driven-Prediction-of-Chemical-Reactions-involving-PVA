@@ -8,8 +8,13 @@ The files related to the model are in this repository.
 By the way, please feel free to email yutuo7@126.com with any questions about this work.
 
 # Tips
-## setup the environment
+## Create and activate the Conda environment
+Create a new Conda environment and activate it.
 conda create -n pva_env python==3.8
 conda activate pva_env
-
+## Install the necessary dependency packages
+Verify Installation
+conda install numpy pandas scikit-learn matplotlib
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+conda install -c conda-forge transformers rdkit pyscf tqdm
 
