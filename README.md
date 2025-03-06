@@ -11,6 +11,7 @@ By the way, please feel free to email yutuo7@126.com with any questions about th
 ## Create and activate the Conda environment
 Create a new Conda environment and activate it.
 ```
+sudo apt update
 conda create -n pva_env python==3.8
 conda activate pva_env
 ```
