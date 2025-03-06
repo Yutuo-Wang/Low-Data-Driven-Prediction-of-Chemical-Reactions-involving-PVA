@@ -23,5 +23,7 @@ conda install -c conda-forge transformers rdkit pyscf tqdm
 ```
 ## Verifying the Installation
 Make sure that all packages are properly installed and the environment is configured correctly.
-```conda list```
+```
+conda list
+```
 
