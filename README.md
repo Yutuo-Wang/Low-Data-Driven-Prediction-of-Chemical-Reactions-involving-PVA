@@ -5,7 +5,7 @@ This is the official repository of papers titled “Low-Data-Driven Prediction o
  
 The files related to the model are in this repository.
 
-By the way, please feel free to email yutuo7@126.com with any questions about this work.
+Please feel free to email yutuo7@126.com with any questions about this work.
 
 # Tips
 ## Create and activate the Conda environment
