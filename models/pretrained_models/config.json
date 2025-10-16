@@ -1,0 +1,40 @@
+{
+    "enhanced": {
+        "input_dim": 128,
+        "hidden_dim": 256,
+        "lstm_layers": 2,
+        "transformer_layers": 4,
+        "vocab_size": 50265,
+        "condition_dim": 2,
+        "dft_feature_dim": 16,
+        "dropout_rate": 0.1,
+        "num_heads": 8,
+        "description": "Enhanced model with multi-head attention and DFT feature processing",
+        "training_data": "50,172 PVA reaction samples",
+        "performance": {
+            "accuracy": "95.0% with 85% training data",
+            "r2_score": "0.92 for addition reactions",
+            "generalization": "Effective on PE, PP, PVC, MMA systems"
+        },
+        "file": "enhanced_model_weights.pth"
+    },
+    "multitask": {
+        "input_dim": 128,
+        "hidden_dim": 256,
+        "lstm_layers": 2,
+        "transformer_layers": 4,
+        "vocab_size": 50265,
+        "condition_dim": 2,
+        "nhead": 8,
+        "dim_feedforward": 512,
+        "dropout": 0.1,
+        "description": "Multi-task model for simultaneous yield and condition prediction",
+        "training_data": "50,172 PVA reaction samples",
+        "performance": {
+            "accuracy": "90.4% with 40% training data",
+            "r2_score": "0.85 for complex reactions",
+            "generalization": "Good performance on polymer systems"
+        },
+        "file": "multitask_model_weights.pth"
+    }
+}
