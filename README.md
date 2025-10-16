@@ -1,5 +1,5 @@
-# PVA-ReAct-LSTM
-![2](https://github.com/user-attachments/assets/c7b3bec2-6b7d-4444-ae6d-4e50474718f0)
+# Low-Data-Driven-Prediction-of-Chemical-Reactions-involving-PVA
+![20250810](https://github.com/user-attachments/assets/88a1c5e8-31b0-46cb-b1d9-9f4a9115dbb9)
 
 This is the official repository of papers titled “Low-Data-Driven Prediction of Chemical Reactions involving PVA: A Quantum Chemistry-inspired Multiscale Deep Learning Framework”. This work uses a revolutionary model that can mimic the bonding changes that occur during the reaction process, and can use a relatively small training set to highly accurately predict the results involving PVA reactions without pre-training or additional features. Materials scientists and chemists will benefit from this, because the model has strong generalization ability, which can not only effectively predict the reaction involving PVA, but also can be extended to the modeling and analysis of chemical reactions in other material systems, providing a universal solution for intelligent optimization of different chemical systems. 
  
