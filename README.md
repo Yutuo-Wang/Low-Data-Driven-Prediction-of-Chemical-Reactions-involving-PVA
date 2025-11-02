@@ -15,7 +15,7 @@ sudo apt update
 conda create -n pva_env python==3.8
 conda activate pva_env
 ```
-## Install the necessary dependency packages
+## Install necessary dependency packages
 Verify Installation.
 ```
 conda install numpy pandas scikit-learn matplotlib
