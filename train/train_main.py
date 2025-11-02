@@ -96,7 +96,7 @@ if __name__ == "__main__":
 
     # Load data
     try:
-        data = pd.read_csv("data/reaction_data.csv")  # Assuming data/ dir
+        data = pd.read_csv("reaction_data.csv")  # Assuming data/ dir
         print(f"Loaded dataset with {len(data)} samples")
     except FileNotFoundError:
         print("Error: reaction_data.csv not found")
